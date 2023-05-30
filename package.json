@@ -2,10 +2,12 @@
   "name": "code_burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "cz"
+    "commit": "cz",
+    "dev": "nodemon",
+    "debug": "nodemon --inspect"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +16,9 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "nodemon": "^2.0.22",
+    "sucrase": "^3.32.0"
   },
   "config": {
     "commitizen": {
