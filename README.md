@@ -17,12 +17,12 @@ dados para persistencia dos dados como seria em uma aplicação real.
 
 ## Requisitos
 
-node - 18.16.0
-npm - 9.5.1
-postgres - PORT: 5432
-mongoDb - PORT: 27017
-Docker - "opcional"
-insomnia - teste de rotas
+- [x] node - 18.16.0
+- [x] npm - 9.5.1
+- [x] postgres - Running - PORT: 5432
+- [x] mongoDb - Running - PORT: 27017
+- [x] Docker - "opcional"
+- [x] insomnia - teste de rotas
 
 ## Instalação 
 
