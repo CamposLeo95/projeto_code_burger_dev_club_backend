@@ -142,5 +142,7 @@ routes.put("/orders/:id", OrderController.update);
 ------
 
 ## License
+Este projeto está licenciado sob a LICENSE MIT.
 
-Este projeto está licenciado sob a - [![License: MIT]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/CamposLeo95/code_burger_dev_club/blob/main/LICENSE)
+
