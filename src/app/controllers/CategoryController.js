@@ -31,7 +31,7 @@ class CategoryController {
 
     const { id } = await Category.create({ name, path });
 
-    return res.status(400).json({ message: { id, name } });
+    return res.status(200).json({ message: { id, name } });
   }
 
   async index(req, res) {
